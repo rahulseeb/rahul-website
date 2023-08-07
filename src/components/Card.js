@@ -3,46 +3,46 @@ import '../App.css';
 import './Card.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
+
+  const cardData = [
+    {
+      src: 'images/another gui.jpg',
+      text: 'An interactive graphical user interface made with python',
+      label: 'Python GUI',
+      linkUrl: 'https://github.com/rahulseeb/GUI', // Add the URL for this card
+    },
+    {
+      src: 'images/react.png',
+      text: 'My portfolio website built using react, javascript and css',
+      label: 'React Website',
+      linkUrl: 'https://github.com/rahulseeb/rahul-website', // Add the URL for this card
+    },
+    {
+      src: 'images/bnb.png',
+      text: 'A b&b website created using flask as a backend framework, mainly html and some css frontend',
+      label: 'B&B Website',
+      linkUrl: 'https://github.com/rahulseeb/VDSR-Solutions', // Add the URL for this card
+
+    }
+
+
+  ]
   return (
     <div className='cards'>
       <h1>PROJECTS</h1>
       <div className='card_container'>
         <div className='card_wrap'>
-          <ul className='card_item'>
+          {cardData.map((item, index) => (
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+            key={index}
+            src={item.src}
+            text={item.text}
+            label={item.label}
+            linkUrl={item.linkUrl}
             />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='card_item'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
+            ))}
         </div>
       </div>
     </div>

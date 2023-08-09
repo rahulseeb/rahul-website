@@ -8,8 +8,6 @@ function HeroSection() {
         <video src='/videos/video-2.mp4' autoPlay loop muted />
         <h1>Rahul Seebaransingh</h1>
         <p>A 3rd year Computer Science student at Queen's University</p>
-        <div className="hero-btns">
-        </div>
     </div>
   )
 }

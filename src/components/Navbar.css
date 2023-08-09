@@ -121,7 +121,7 @@
 
   @media screen and (max-width: 960px) {
     .NavbarItems {
-      position: relative;
+      position: sticky;
     }
 
     .nav-menu {

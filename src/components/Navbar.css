@@ -119,18 +119,9 @@
     display: none;
   }
 
-  body {
-    overflow-x: hidden;
-  }
-
   @media screen and (max-width: 960px) {
     .NavbarItems {
-      position: sticky;
-
-      .nav-menu {
-        width: 100%; /* Use 100vw instead of 100% for better accuracy */
-        /* ... other styles ... */
-      }
+      position: relative;   /* NavBarItems does not do anything*/
     }
 
     .nav-menu {

@@ -23,7 +23,7 @@
 
   .resume i {
     font-size: 1.3rem; /* Adjust the file icon size */
-    margin-left: 5px; /* Add margin between the word and the icon */
+    margin-left: 10px; /* Add margin between the word and the icon */
     margin-top: 13px; /* Adjust the vertical position of the icon */
 
   }
@@ -40,10 +40,10 @@
     display: grid;
     grid-template-columns: repeat(5,auto);
     list-style: none;
-    grid-gap: 30px;
+    grid-gap: 20px;
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: -30px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -76,11 +76,6 @@
   .resume:hover{
     color: #636363;
     transition: 250ms;
-  }
-
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
   }
 
   .nav-menu {

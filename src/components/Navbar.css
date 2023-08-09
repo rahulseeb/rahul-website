@@ -182,7 +182,7 @@
     .nav-links-mobile {
       display: block;
       text-align: center;
-      margin: 1rem auto; /* Adjust margin for better spacing */
+      margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
       text-decoration: none;

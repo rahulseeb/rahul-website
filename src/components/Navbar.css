@@ -9,7 +9,10 @@
     top: 0;
     z-index: 999;
   }
-
+/*
+Try checking the negative margins and change them to see if that has an effect on the horizontal
+scrolling problem on the navbar page.
+*/
   .resume {
     display: flex; /* Add this line to use flex display */
     align-items: center; /* Add this line to center the items vertically */
@@ -214,7 +217,7 @@
       }
 
       .navbar-logos {
-        margin-left: -60px;
+        margin-left: 0px;
         grid-gap: 10px;
 
     }

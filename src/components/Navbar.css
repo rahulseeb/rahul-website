@@ -214,6 +214,7 @@
       }
 
       .navbar-logos {
+        margin-left: -60px;
         grid-gap: 10px;
 
     }

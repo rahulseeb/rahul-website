@@ -120,10 +120,6 @@
   }
 
   @media screen and (max-width: 960px) {
-    .NavbarItems {
-      position: relative;   /* NavBarItems does not do anything*/
-    }
-
     .nav-menu {
       display: flex;
       flex-direction: column;
@@ -204,4 +200,41 @@
       color: #242424;
       transition: 250ms;
     }
+
+
+    @media screen and (max-width: 480px) {
+
+      .resume span {
+        font-size: 2.0rem;
+      }
+
+      .resume i {
+        font-size: 1.0rem;
+        margin-left: 5px; /* Add margin between the word and the icon */
+      }
+
+      .navbar-logos {
+        grid-gap: 10px;
+
+    }
+
+    .email-icon i {
+      font-size: 2.2rem;
+    }
+
+    .phone-icon i{
+      font-size: 1.7rem;
+    }
+
+    .linkedin-icon i{
+      font-size: 2rem;
+    }
+
+    .github-icon i {
+      font-size: 2rem; /* Adjust the desired size */
+    }
+
+
+  }
+
   }

@@ -173,17 +173,6 @@ textarea {
 }
 
 
-select {
-  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
-  outline: none;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-
-
 
 textarea {
 	line-height: 150%;
@@ -246,9 +235,6 @@ textarea {
     font-size: 26px;
   }
 
-  .underline {
-    width: 68px;
-  }
 
   #form_button {
     padding: 15px 25px;
@@ -263,10 +249,6 @@ textarea {
   .icon {
     height: 35px;
     width: 35px;
-  }
-
-  .underline {
-    width: 53px;
   }
 
   input[type='text'], [type='email'], select, textarea {

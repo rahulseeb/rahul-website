@@ -217,7 +217,7 @@ scrolling problem on the navbar page.
       }
 
       .navbar-logos {
-        margin-left: 0px;
+        margin-left: -60px;
         grid-gap: 10px;
 
     }

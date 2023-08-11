@@ -29,6 +29,8 @@ video {
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+    /* text-align: center;   Add this back when properly adjusted width*/
+
   }
 
 
@@ -51,12 +53,15 @@ video {
       font-size: 30px;
     }
 
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
 
-    .btn {
-      width: 100%;
-    }
+    @media screen and (max-width: 480px) {
+      .hero-container > h1 {
+        font-size: 40px;
+        margin-top: -50px;
+      }
+      .hero-container > p {
+        font-size: 25px;
+      }
   }
+
+}

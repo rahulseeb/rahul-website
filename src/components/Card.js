@@ -43,6 +43,18 @@ function Cards() {
             linkUrl={item.linkUrl}
             />
             ))}
+            <div className="credits-container">
+            <p className="credits">CREDITS</p>
+            </div>
+            <div className = "GUI">
+            <a href="https://www.freepik.com/free-photo/designer-using-transparent-digital-tablet-screen-futuristic-technology_15840680.htm">Image by rawpixel.com</a> on Freepik
+            </div>
+            <div className='react'>
+            <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
+            </div>
+            <div className='bnb'>
+            <a href="https://www.flaticon.com/free-icons/bed" title="bed icons">Bed icons created by Freepik - Flaticon</a>
+            </div>
         </div>
       </div>
     </div>

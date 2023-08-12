@@ -3,10 +3,29 @@
     background: #fff;
   }
 
-  h1 {
+  .h1 {
     text-align: center;
   }
 
+  .credits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+
+  .credits {
+    font-size: 24px;
+    margin: 0;
+  }
+
+
+.GUI,
+.react,
+.bnb {
+  text-align: center;
+
+}
   .card_container {
     display: flex;
     flex-flow: column;

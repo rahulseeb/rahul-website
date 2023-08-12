@@ -13,6 +13,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           alert('Message sent successfully!')
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
       });

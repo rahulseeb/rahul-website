@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 video {
@@ -62,7 +62,7 @@ video {
 
     @media screen and (max-width: 480px) {
       .hero-container > h1 {
-        font-size: 40px;
+        font-size: 35px;
       }
       .hero-container > p {
         font-size: 25px;

@@ -12,6 +12,7 @@ const Contact = () => {
     emailjs.sendForm('service_wt593f4', 'template_rocexo6', form.current, '4i6a7oquRxNnB0Pa0')
       .then((result) => {
           console.log(result.text);
+          alert('Message sent successfully!')
       }, (error) => {
           console.log(error.text);
       });

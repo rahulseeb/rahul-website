@@ -73,9 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Credits
 
-A good amount of this code was refactored for my website.:
+A good amount of this code was refactored for my website:
 - [React-website-v1]([https://github.com/briancodex/react-website-v1/tree/starter])
-- [Author's Github Profile]([https://github.com/author](https://github.com/briancodex])
+- [Author's Github Profile] ([https://github.com/briancodex])
 - [Author's Youtube Video] ([https://www.youtube.com/watch?v=I2UBjN5ER4s&ab_channel=BrianDesign])
 
 The contact forum was inpired by this website:

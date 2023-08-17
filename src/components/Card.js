@@ -46,6 +46,9 @@ function Cards() {
             <div className="credits-container">
             <p className="credits">CREDITS</p>
             </div>
+            <div className='video'>
+            <a href="https://www.freepik.com/free-video/animation-molecules-waves-connecting-dots-lines_170317#fromView=keyword&term=technology-background&page=1&position=0">Video by freepik</a>
+            </div>
             <div className = "GUI">
             <a href="https://www.freepik.com/free-photo/designer-using-transparent-digital-tablet-screen-futuristic-technology_15840680.htm">Image by rawpixel.com</a> on Freepik
             </div>
@@ -54,7 +57,7 @@ function Cards() {
             </div>
             <div className='bnb'>
             <a href="https://www.flaticon.com/free-icons/bed" title="bed icons">Bed icons created by Freepik - Flaticon</a>
-            </div>
+          </div>
         </div>
       </div>
     </div>

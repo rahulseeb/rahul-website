@@ -56,7 +56,6 @@ const Contact = () => {
           <textarea  name="message" />
           </label>
           <div class="message-middle" />
-
           </div>
           <Button type="submit" variant="contained" id="form_button">
             Send Message

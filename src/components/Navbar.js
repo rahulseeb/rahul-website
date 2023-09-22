@@ -12,12 +12,11 @@ function Navbar() {
   const linkedinUrl = 'https://www.linkedin.com/in/rahul-seebaransingh/';
   const phoneNumber = '+14169122170';
   const email = 'rahulseebaransingh@gmail.com';
-  const file = 'https://drive.google.com/uc?export=download&id=1hM-Y0DT1lHzxkR1xX3sk-Sa9P_fJV6lX'
+  const file = 'https://drive.google.com/uc?export=download&id=13otQJFrnYZ8hu00eLppQw0it-LmvAZDP'
 
   const openLink = (url) => {
     window.open(url, '_blank', 'noopener noreferrer');
   };
-
 
   return (
     <>

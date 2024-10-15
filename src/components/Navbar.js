@@ -9,7 +9,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const githubUrl = 'https://github.com/rahulseeb';
-  const linkedinUrl = 'https://www.linkedin.com/in/rahul-seebaransingh/';
+  const linkedinUrl = 'https://www.linkedin.com/in/rahul-seeb';
   const phoneNumber = '+14169122170';
   const email = 'rahulseebaransingh@gmail.com';
   const file = 'https://drive.google.com/uc?export=download&id=10BD9E8HvUPTffOwiz6Uh78YJ1nU9FBo-'

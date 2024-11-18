@@ -7,7 +7,7 @@ function HeroSection() {
     <div className="hero-container">
         <video src='/videos/molecules.mp4' autoPlay loop muted />
         <h1>Rahul Seebaransingh</h1>
-        <p>An upcoming graduate Computer Science student at Queen's University</p>
+        <p>A recent  Computer Science graduate from Queen's University</p>
     </div>
   )
 }

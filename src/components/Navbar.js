@@ -12,7 +12,7 @@ function Navbar() {
   const linkedinUrl = 'https://www.linkedin.com/in/rahul-seeb';
   const phoneNumber = '+14169122170';
   const email = 'rahulseebaransingh@gmail.com';
-  const file = 'https://drive.google.com/uc?export=download&id=1qRXnIZMchlUB3bctmuWaeym49uB4FIzf'
+  const file = 'https://drive.google.com/uc?export=download&id=14quIEG1NAAZuvw_bLV8op1o9Y-QgGdkD'
 
   const openLink = (url) => {
     window.open(url, '_blank', 'noopener noreferrer');
